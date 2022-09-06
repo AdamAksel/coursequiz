@@ -1,10 +1,17 @@
 import './App.css'
+import styled from 'styled-components'
+import { GlobalStyle } from './globalstyles'
+import { Nav, Main } from './components/componentIndex'
+
+const StyledApp = styled.div``
 
 function App() {
   return (
-    <>
-      <div>Hello</div>
-    </>
+    <StyledApp>
+      <GlobalStyle />
+      <Nav />
+      <Main />
+    </StyledApp>
   )
 }
 
