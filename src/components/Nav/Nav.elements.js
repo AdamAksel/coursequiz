@@ -5,7 +5,7 @@ export const NavMain = styled.div`
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 5vh;
+  height: 8vh;
 `
 
 export const NavImg1 = styled.img`
@@ -20,6 +20,7 @@ export const NavImg1 = styled.img`
 
 export const NavGreeting = styled.h3`
   position: absolute;
+  top: 4vh;
   font-size: 2vh;
   left: 50%;
   transform: translate(-50%, 0);
