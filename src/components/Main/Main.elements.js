@@ -5,7 +5,7 @@ export const MainFlexbox = styled.div`
   justify-content: center;
   align-items: flex-start;
   width: 100vw;
-  height: 80vh;
+  height: 89vh;
   flex-wrap: wrap;
 `
 
@@ -24,18 +24,34 @@ export const QuestionArea = styled.div`
   margin-right: 10vw;
   margin-left: 10vw;
 `
+export const AnswerArea = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30%;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 1vh;
+`
+
 export const AnswerDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 10vw;
-  width: 20vw;
+  min-height: 40%;
+  min-width: 20%;
+  max-height: 90%;
+  max-width: 45%;
   margin: 1px;
   border: 1px solid black;
   border-radius: 20px;
   text-align: center;
   margin: 1vh;
+  font-size: 2vh;
 `
 
 export const ScoreCountDiv = styled.div`
