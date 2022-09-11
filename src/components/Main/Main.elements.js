@@ -9,7 +9,22 @@ export const MainFlexbox = styled.div`
   flex-wrap: wrap;
 `
 
-export const QuestionArea = styled.div`
+export const QuestionContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 60%;
+  width: 70%;
+  margin: 1px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 3vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+`
+export const QuestionContainerStart = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +39,31 @@ export const QuestionArea = styled.div`
   margin-right: 10vw;
   margin-left: 10vw;
 `
+
+export const QuestionType = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 15%;
+`
+
+export const QuestionArea = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 69%;
+`
+
+export const CommentArea = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 15%;
+`
+
 export const AnswerArea = styled.div`
   display: flex;
   justify-content: center;
@@ -47,15 +87,19 @@ export const AnswerDiv = styled.div`
   max-height: 90%;
   max-width: 45%;
   margin: 1px;
+  padding: 10px;
   border: 1px solid black;
   border-radius: 20px;
   text-align: center;
   margin: 1vh;
   font-size: 2vh;
+  color: #141c3a;
 `
 
 export const ScoreCountDiv = styled.div`
   position: absolute;
+  justify-content: center;
+  align-items: center;
   height: 3vh;
   width: 5vw;
   top: 35%;

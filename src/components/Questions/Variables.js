@@ -2,7 +2,7 @@
 variables schema:
 
 {
-        questionSort: 2,
+        questionSort: Variables,
         question: ``,
         rightAnswer: [``],
         wrongAnswers: [``,``,``],
@@ -12,14 +12,14 @@ variables schema:
 
 export const variables = [
   {
-    questionSort: 2,
-    question: `"let myVariable" what value will this variable have?`,
+    questionSort: 'Variables',
+    question: `"let myVariable;" what value will this variable have?`,
     rightAnswer: [`Undefined`],
     wrongAnswers: [`Null`, `Nothing at all`, `String`],
     comment: `A declared but unassigned variable will always have "undefined" as its value.`,
   },
   {
-    questionSort: 2,
+    questionSort: 'Variables',
     question: `What is the only reason to use the "var" keyword?`,
     rightAnswer: [`It's supported by older browsers.`],
     wrongAnswers: [`You want to make the variable global.`],

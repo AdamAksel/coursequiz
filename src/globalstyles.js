@@ -21,10 +21,7 @@ body {
   border: 0px solid transparent;
   text-shadow: 0px 0px 0px transparent;
 }
-div{
-    border:1px solid black ;
-   
-}
+
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */

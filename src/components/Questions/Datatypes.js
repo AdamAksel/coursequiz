@@ -2,7 +2,7 @@
 datatypes schema:
 
 {
-        questionSort: 1,
+        questionSort: Datatypes,
         question: ``,
         rightAnswer: ``,
         wrongAnswers: [``,``,``],
@@ -12,14 +12,14 @@ datatypes schema:
 
 export const datatypes = [
   {
-    questionSort: 1,
+    questionSort: 'Datatypes',
     question: `"typeof []" will return what datatype?`,
     rightAnswer: [`Object`],
     wrongAnswers: [`Variable`, `String`, `Undefined`],
     comment: `All arrays are of the object datatype, an array is a structured object.`,
   },
   {
-    questionSort: 1,
+    questionSort: 'Datatypes',
     question: `"typeof NaN" will return what datatype?`,
     rightAnswer: [`Number`],
     wrongAnswers: [`String`, `NaN`, `Undefined`],
